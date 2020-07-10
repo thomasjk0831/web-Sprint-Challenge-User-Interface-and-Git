@@ -28,6 +28,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
+
 body {
 	line-height: 1;
 }
@@ -66,7 +69,47 @@ p {
     line-height: 1.4;
 }
 
+
+.hdrContainer{
+   
+    display:flex;
+    justify-content: center;
+    
+    width:70%;
+    margin-left: 16.7%;
+}
+
+.hdrContainer img{
+    
+    display: flex;
+}
+
+.hdrContainer nav{
+    
+    display: flex;
+    width: 53%;
+    justify-content: space-evenly;
+    
+}
+
+.hdrContainer nav a{
+   
+    display: flex;
+    padding-top: 10px;
+    text-decoration: none;
+    color:black;
+    font-weight: 800;
+}
+
+.jumboImg{
+   
+    margin-left: 29%;
+}
+
+
+
 .container {
+ 
     width: 800px;
     margin: 0 auto;
 }
